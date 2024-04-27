@@ -3,7 +3,7 @@ package com.bengkel.booking.services;
 import java.util.Scanner;
 
 public class Validation {
-	
+
 	public static String validasiInput(String question, String errorMessage, String regex) {
 	    Scanner input = new Scanner(System.in);
 	    String result;
@@ -23,7 +23,7 @@ public class Validation {
 
 	    return result;
 	  }
-	
+
 	public static int validasiNumberWithRange(String question, String errorMessage, String regex, int max, int min) {
 	    int result;
 	    boolean isLooping = true;
